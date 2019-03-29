@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.thiago.appmaps</id>
+    <name>Maps</name>
+    <version>1.0</version>
+    <publisher>thiagosalome</publisher>
+    <url/>
+    <description/>
+    <copyright>2018 by thiagosalome</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>4c4268bc-4127-4d34-9222-a2c0f5b3e408</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest>
+            <application android:theme="@style/Theme.Appcelerator">
+                <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value=""/>
+            </application>
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+            <uses-feature android:name="android.hardware.location" android:required="true"/>
+            <uses-feature android:name="android.hardware.location.gps" android:required="true"/>
+            <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+        </manifest>
+    </android>
+    <modules>
+        <module platform="android">ti.map</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+    </deployment-targets>
+    <sdk-version>7.5.0.GA</sdk-version>
+    <property name="appc-app-id" type="string">5a9ed1fdf7616b52c62ac5aa</property>
+</ti:app>

@@ -1,0 +1,283 @@
+
+2019-3-29 10:09:08
+
+Operating System
+  Name                        = Deepin 15.9.2 
+  Version                     = 15.9.2
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8250044416
+
+Node.js
+  Node.js Version             = 10.15.3
+  npm Version                 = 6.4.1
+
+Titanium CLI
+  CLI Version                 = 5.1.1
+
+Titanium SDK
+  SDK Version                 = 7.5.0.GA
+  SDK Path                    = /home/thiagosalome/.titanium/mobilesdk/linux/7.5.0.GA
+  Target Platform             = android
+
+Command
+  /usr/local/bin/node /home/thiagosalome/.appcelerator/install/7.0.10/package/node_modules/titanium/lib/titanium.js build --platform android --log-level info --project-dir /home/thiagosalome/vhosts/app-maps --target emulator --device-id Google Nexus 5X --config-file /tmp/build-1553864946793.json --no-banner --project-dir /home/thiagosalome/vhosts/app-maps
+
+[WARN]   Unable to locate an /usr/lib/libGL.so.
+[WARN]   Without the libGL library, the Android Emulator may not work properly.
+[WARN]   You may be able to fix it by reinstalling your graphics drivers and make sure it installs the 32-bit version.
+[DEBUG]  Detecting modules in /home/thiagosalome/.titanium/modules
+[DEBUG]  Detected android module: facebook 7.1.0 @ /home/thiagosalome/.titanium/modules/android/facebook/7.1.0
+[DEBUG]  Detected android module: facebook 7.3.1 @ /home/thiagosalome/.titanium/modules/android/facebook/7.3.1
+[DEBUG]  Detected android module: hyperloop 3.0.3 @ /home/thiagosalome/.titanium/modules/android/hyperloop/3.0.3
+[DEBUG]  Detected android module: hyperloop 3.1.4 @ /home/thiagosalome/.titanium/modules/android/hyperloop/3.1.4
+[DEBUG]  Detected android module: ti.cloudpush 5.1.0 @ /home/thiagosalome/.titanium/modules/android/ti.cloudpush/5.1.0
+[DEBUG]  Detected android module: ti.cloudpush 5.2.0 @ /home/thiagosalome/.titanium/modules/android/ti.cloudpush/5.2.0
+[DEBUG]  Detected android module: ti.identity 2.1.0 @ /home/thiagosalome/.titanium/modules/android/ti.identity/2.1.0
+[DEBUG]  Detected android module: ti.map 4.1.1 @ /home/thiagosalome/.titanium/modules/android/ti.map/4.1.1
+[DEBUG]  Detected android module: ti.map 4.3.1 @ /home/thiagosalome/.titanium/modules/android/ti.map/4.3.1
+[DEBUG]  Detected android module: ti.playservices 11.0.40 @ /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40
+[DEBUG]  Detected android module: ti.touchid 3.0.1 @ /home/thiagosalome/.titanium/modules/android/ti.touchid/3.0.1
+[DEBUG]  Detected android module: ti.webdialog 1.1.0 @ /home/thiagosalome/.titanium/modules/android/ti.webdialog/1.1.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /home/thiagosalome/.titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: hyperloop 3.0.3 @ /home/thiagosalome/.titanium/modules/iphone/hyperloop/3.0.3
+[DEBUG]  Detected iphone module: hyperloop 3.1.4 @ /home/thiagosalome/.titanium/modules/iphone/hyperloop/3.1.4
+[DEBUG]  Detected windows module: hyperloop 3.0.3 @ /home/thiagosalome/.titanium/modules/windows/hyperloop/3.0.3
+[DEBUG]  Detected windows module: hyperloop 3.1.4 @ /home/thiagosalome/.titanium/modules/windows/hyperloop/3.1.4
+[DEBUG]  Looking for Titanium module id=ti.map version=latest platform=android deploy-type=development
+[INFO]   Found Titanium module id=ti.map version=4.3.1 platform=android deploy-type=development path=/home/thiagosalome/.titanium/modules/android/ti.map/4.3.1
+[DEBUG]  Looking for Titanium module id=ti.map version=latest platform=android deploy-type=development
+[INFO]   Found Titanium module id=ti.map version=4.3.1 platform=android deploy-type=development path=/home/thiagosalome/.titanium/modules/android/ti.map/4.3.1
+[DEBUG]  Looking for Titanium module id=ti.playservices version=latest platform=android deploy-type=development
+[INFO]   Found Titanium module id=ti.playservices version=11.0.40 platform=android deploy-type=development path=/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK Android directory: /home/thiagosalome/.titanium/mobilesdk/linux/7.5.0.GA/android
+[INFO]   Deploy type: development
+[INFO]   Building for target: emulator
+[INFO]   Building for emulator: Google Nexus 5X
+[INFO]   Targeting Android SDK API: 23
+[INFO]   Building for the following architectures: arm64-v8a, armeabi-v7a, x86
+[INFO]   Signing with keystore: /home/thiagosalome/.titanium/mobilesdk/linux/7.5.0.GA/android/dev_keystore (tidev)
+[DEBUG]  App ID: com.thiago.appmaps
+[DEBUG]  Classname: Maps
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Forcing rebuild: JavaScript encryption flag changed
+[INFO]     Was: undefined
+[INFO]     Now: false
+[TRACE]  Pre-compile hook: Transforming bundled .aar libraries
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.map/4.3.1/lib/android-maps-utils-release.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: android-maps-utils-release.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.map/4.3.1/lib/android-maps-utils-release.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/android-maps-utils-release
+[TRACE]  Package name is: com.google.maps.android
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/android-maps-utils-release/classes.jar
+[DEBUG]  Copying: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/android-maps-utils-release/assets => /home/thiagosalome/vhosts/app-maps/build/android/bin/assets
+[TRACE]  Done processing: android-maps-utils-release.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-ads-lite-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-ads-lite-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-ads-lite-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-ads-lite-11.0.4
+[TRACE]  Package name is: com.google.android.gms.ads
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-ads-lite-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-ads-lite-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-analytics-impl-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-analytics-impl-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-analytics-impl-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-analytics-impl-11.0.4
+[TRACE]  Package name is: com.google.android.gms.analytics
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-analytics-impl-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-analytics-impl-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-appinvite-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-appinvite-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-appinvite-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-appinvite-11.0.4
+[TRACE]  Package name is: com.google.android.gms.appinvite
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-appinvite-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-appinvite-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-auth-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-auth-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-auth-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-auth-11.0.4
+[TRACE]  Package name is: com.google.android.gms.auth.api
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-auth-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-auth-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-auth-base-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-auth-base-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-auth-base-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-auth-base-11.0.4
+[TRACE]  Package name is: com.google.android.gms.auth
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-auth-base-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-auth-base-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-awareness-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-awareness-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-awareness-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-awareness-11.0.4
+[TRACE]  Package name is: com.google.android.gms.contextmanager
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-awareness-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-awareness-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-base-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-base-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-base-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-base-11.0.4
+[TRACE]  Package name is: com.google.android.gms.base
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-base-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-base-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-basement-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-basement-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-basement-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-basement-11.0.4
+[TRACE]  Package name is: com.google.android.gms
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-basement-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-basement-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-cast-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-cast-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-cast-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-cast-11.0.4
+[TRACE]  Package name is: com.google.android.gms.cast
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-cast-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-cast-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-cast-framework-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-cast-framework-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-cast-framework-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-cast-framework-11.0.4
+[TRACE]  Package name is: com.google.android.gms.cast.framework
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-cast-framework-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-cast-framework-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-gcm-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-gcm-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-gcm-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-gcm-11.0.4
+[TRACE]  Package name is: com.google.android.gms.gcm
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-gcm-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-gcm-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-identity-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-identity-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-identity-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-identity-11.0.4
+[TRACE]  Package name is: com.google.android.gms.identity
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-identity-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-identity-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-iid-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-iid-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-iid-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-iid-11.0.4
+[TRACE]  Package name is: com.google.android.gms.iid
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-iid-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-iid-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-location-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-location-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-location-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-location-11.0.4
+[TRACE]  Package name is: com.google.android.gms.location
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-location-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-location-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-maps-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-maps-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-maps-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-maps-11.0.4
+[TRACE]  Package name is: com.google.android.gms.maps
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-maps-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-maps-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-nearby-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-nearby-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-nearby-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-nearby-11.0.4
+[TRACE]  Package name is: com.google.android.gms.nearby
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-nearby-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-nearby-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-tasks-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-tasks-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-tasks-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-tasks-11.0.4
+[TRACE]  Package name is: com.google.android.gms.tasks
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-tasks-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-tasks-11.0.4.aar
+[DEBUG]  AAR transform options: {
+  "aarPathAndFilename": "/home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-wallet-11.0.4.aar",
+  "outputPath": "/home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar",
+  "assetsDestinationPath": "/home/thiagosalome/vhosts/app-maps/build/android/bin/assets"
+}
+[TRACE]  Start processing: play-services-wallet-11.0.4.aar
+[DEBUG]  Extracting: /home/thiagosalome/.titanium/modules/android/ti.playservices/11.0.40/lib/play-services-wallet-11.0.4.aar => /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-wallet-11.0.4
+[TRACE]  Package name is: com.google.android.gms.wallet
+[TRACE]  Adding main JAR to list: /home/thiagosalome/vhosts/app-maps/build/android/intermediates/exploded-aar/play-services-wallet-11.0.4/classes.jar
+[TRACE]  Done processing: play-services-wallet-11.0.4.aar
+[INFO]   Launching emulator: Google Nexus 5X
+[TRACE]  Starting emulator: Google Nexus 5X
+[TRACE]  Checking if emulator Google Nexus 5X is running...
+[TRACE]  Detecting if Google Nexus 5X exists...
+[TRACE]  Found 2 emulators
+[TRACE]  Emulator exists, detecting all running emulators and connected devices...
+[TRACE]  Detected 0 running emulators and connected devices
+[TRACE]  Emulator not running, detecting emulator info
+[TRACE]  Found 2 emulators
+[TRACE]  Starting the emulator...
+[INFO]   Running: /home/thiagosalome/apps/genymotion/player --vm-name "Google Nexus 5X"
+[TRACE]  Emulator is starting, monitoring boot state...
+[TRACE]  Checking the boot state for the next 240000 ms
+[TRACE]  Waiting for emulator to register with ADB
+[TRACE]  Emulator process started
+[TRACE]  offline build file /tmp/build-f9d841c1ae0a1fe68a659103e33da2d87bc08394.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 4172.846 sec ago
+[DEBUG]  Copying /home/thiagosalome/.titanium/mobilesdk/linux/7.5.0.GA/common/Resources
+[DEBUG]  Copying /home/thiagosalome/vhosts/app-maps/Resources
+[DEBUG]  Ignoring /home/thiagosalome/vhosts/app-maps/Resources/android
+[DEBUG]  Symlinking /home/thiagosalome/vhosts/app-maps/Resources/assets/images/tab1.png => /home/thiagosalome/vhosts/app-maps/build/android/bin/assets/Resources/assets/images/tab1.png
+[DEBUG]  Symlinking /home/thiagosalome/.titanium/mobilesdk/linux/7.5.0.GA/android/templates/app/default/template/Resources/android/appicon.png => /home/thiagosalome/vhosts/app-maps/build/android/bin/assets/Resources/appicon.png
